@@ -1,0 +1,32 @@
+PODS:
+  - FBSnapshotTestCase (2.1.4):
+    - FBSnapshotTestCase/SwiftSupport (= 2.1.4)
+  - FBSnapshotTestCase/Core (2.1.4)
+  - FBSnapshotTestCase/SwiftSupport (2.1.4):
+    - FBSnapshotTestCase/Core
+  - Masonry (1.1.0)
+  - SSVerifyCodeView (0.1.0):
+    - Masonry
+
+DEPENDENCIES:
+  - FBSnapshotTestCase
+  - Masonry
+  - SSVerifyCodeView (from `../`)
+
+SPEC REPOS:
+  trunk:
+    - FBSnapshotTestCase
+    - Masonry
+
+EXTERNAL SOURCES:
+  SSVerifyCodeView:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  FBSnapshotTestCase: 094f9f314decbabe373b87cc339bea235a63e07a
+  Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
+  SSVerifyCodeView: f51425957e95b77506f5ff8c7ee7f6eb51f15777
+
+PODFILE CHECKSUM: dbccd6a450a6d49710c288f9405ebd06e207e113
+
+COCOAPODS: 1.8.4

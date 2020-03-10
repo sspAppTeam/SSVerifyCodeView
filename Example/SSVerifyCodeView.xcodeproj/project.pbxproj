@@ -38,10 +38,10 @@
 
 /* Begin PBXFileReference section */
 		0EA042AA9E0679881F6AAD9B /* Pods-SSVerifyCodeView_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SSVerifyCodeView_Example.release.xcconfig"; path = "Target Support Files/Pods-SSVerifyCodeView_Example/Pods-SSVerifyCodeView_Example.release.xcconfig"; sourceTree = "<group>"; };
-		24E30568AD6CB6C19DDC7EE4 /* SSVerifyCodeView.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = SSVerifyCodeView.podspec; path = ../SSVerifyCodeView.podspec; sourceTree = "<group>"; };
+		24E30568AD6CB6C19DDC7EE4 /* SSVerifyCodeView.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = SSVerifyCodeView.podspec; path = ../SSVerifyCodeView.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		371D621CB9172E4D5434994B /* Pods_SSVerifyCodeView_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SSVerifyCodeView_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		456ACEA32EE9644DCB023C00 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
-		5571AE0BC02AE696E93DA038 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		456ACEA32EE9644DCB023C00 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		5571AE0BC02AE696E93DA038 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		57002BE1C69109EE194644FD /* Pods-SSVerifyCodeView_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SSVerifyCodeView_Example.debug.xcconfig"; path = "Target Support Files/Pods-SSVerifyCodeView_Example/Pods-SSVerifyCodeView_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		6003F58A195388D20070C39A /* SSVerifyCodeView_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SSVerifyCodeView_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -103,7 +103,6 @@
 				990EA83D722769EC34B6FA4E /* Pods-SSVerifyCodeView_Tests.debug.xcconfig */,
 				9BE613918D6FD614D4847BCF /* Pods-SSVerifyCodeView_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -249,6 +248,9 @@
 				LastUpgradeCheck = 0720;
 				ORGANIZATIONNAME = SSPSource;
 				TargetAttributes = {
+					6003F589195388D20070C39A = {
+						DevelopmentTeam = 57FD26NT87;
+					};
 					6003F5AD195388D20070C39A = {
 						TestTargetID = 6003F589195388D20070C39A;
 					};
@@ -259,6 +261,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -343,10 +346,12 @@
 			);
 			inputPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-SSVerifyCodeView_Example/Pods-SSVerifyCodeView_Example-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Masonry/Masonry.framework",
 				"${BUILT_PRODUCTS_DIR}/SSVerifyCodeView/SSVerifyCodeView.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Masonry.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SSVerifyCodeView.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -513,9 +518,11 @@
 			baseConfigurationReference = 57002BE1C69109EE194644FD /* Pods-SSVerifyCodeView_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 57FD26NT87;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "SSVerifyCodeView/SSVerifyCodeView-Prefix.pch";
 				INFOPLIST_FILE = "SSVerifyCodeView/SSVerifyCodeView-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -529,9 +536,11 @@
 			baseConfigurationReference = 0EA042AA9E0679881F6AAD9B /* Pods-SSVerifyCodeView_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 57FD26NT87;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "SSVerifyCodeView/SSVerifyCodeView-Prefix.pch";
 				INFOPLIST_FILE = "SSVerifyCodeView/SSVerifyCodeView-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";

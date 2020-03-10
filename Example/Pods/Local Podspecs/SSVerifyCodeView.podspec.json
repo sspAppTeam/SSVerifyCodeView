@@ -1,0 +1,27 @@
+{
+  "name": "SSVerifyCodeView",
+  "version": "0.1.0",
+  "summary": "验证码,短信一键导入，支付密码",
+  "description": "验证码,短信一键导入，支付密码等",
+  "homepage": "https://github.com/SSPSource/SSVerifyCodeView",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "SSPSource": "2316585240@qq.com"
+  },
+  "source": {
+    "git": "https://github.com/SSPSource/SSVerifyCodeView.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "SSVerifyCodeView/Classes/**/*",
+  "dependencies": {
+    "Masonry": [
+
+    ]
+  }
+}

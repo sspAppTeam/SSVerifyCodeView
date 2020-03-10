@@ -1,0 +1,6 @@
+framework module SSVerifyCodeView {
+  umbrella header "SSVerifyCodeView-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,6 @@
+framework module Pods_SSVerifyCodeView_Tests {
+  umbrella header "Pods-SSVerifyCodeView_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}
