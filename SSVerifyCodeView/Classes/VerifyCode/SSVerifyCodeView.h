@@ -28,6 +28,10 @@ NS_ASSUME_NONNULL_BEGIN
 默认 6个密码
 */
 @property (nonatomic,assign) int codeNumber;
+/**
+默认yes
+*/
+@property (nonatomic,assign) BOOL isSegmentation;
 
 /**
  输入完成后的回调

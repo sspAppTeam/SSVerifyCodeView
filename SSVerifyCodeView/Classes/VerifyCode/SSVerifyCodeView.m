@@ -8,7 +8,7 @@
 #import "SSVerifyCodeView.h"
 #import "UITextField+DeleteWord.h"
 #import <Masonry/Masonry.h>
-#define MARGIN 20
+#define MARGIN 10
 
 
 @interface SSVerifyCodeView ()
@@ -24,21 +24,27 @@
     if (self) {
         self.labelArray = [NSMutableArray array];
         self.isSecure=YES;
+        self.isSegmentation=YES;
         [self initCodeView];
         [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(deleteBackward) name:TextFieldDidDeleteBackwardNotification object:nil];
     }
     return self;
 }
 - (void)initCodeView {
+    if (self.isSegmentation) {
+         [self initSegmentUI];
+    }else{
+        [self initUI];
+    }
     
-    [self initUI];
+   
      
 }
 -(void)setCodeNumber:(int)codeNumber{
     _codeNumber=codeNumber;
     [self initCodeView];
 }
-- (void)initUI {
+- (void)initSegmentUI {
     if (self.bgView) {
         [self.bgView removeFromSuperview];
         self.bgView=nil;
@@ -47,7 +53,58 @@
     [self addSubview:self.bgView];
     
     [self.bgView mas_makeConstraints:^(MASConstraintMaker *make) {
-       
+        make.top.bottom.equalTo(self);
+        make.left.equalTo(self).offset(MARGIN);
+        make.right.equalTo(self).offset(-MARGIN);
+    }];
+        int count = self.codeNumber ? self.codeNumber :6;
+    CGFloat width = ([UIScreen mainScreen].bounds.size.width - 2 * MARGIN-MARGIN *(count-1)) / count;
+    width=40;
+    for (int i = 0; i < count; i ++) {
+        
+        UILabel *label = [[UILabel alloc] init];
+        label.textColor = [UIColor blackColor];
+        label.font = [UIFont systemFontOfSize:20];
+        label.textAlignment = NSTextAlignmentCenter;
+        label.backgroundColor=[UIColor whiteColor];
+        label.text = nil;
+        
+               label.layer.masksToBounds = YES;
+               label.layer.borderColor = [UIColor colorWithRed:226/255.0 green:226/255.0 blue:226/255.0 alpha:1].CGColor;//边框颜色
+               label.layer.borderWidth = 1.5;//边框宽度
+        [_bgView addSubview:label];
+        
+        [label mas_makeConstraints:^(MASConstraintMaker *make) {
+            make.top.bottom.equalTo(self);
+            make.left.equalTo(self).offset(i * (width +MARGIN)+MARGIN);
+            make.width.mas_equalTo(@(width));
+        }];
+        label.tag = i;
+        [self.labelArray addObject:label];
+    }
+
+    
+    _textField = [[UITextField alloc] init];
+    _textField.borderStyle=UITextBorderStyleNone;
+    [self addSubview:_textField];
+//    _textField.backgroundColor=[UIColor greenColor];
+    
+    [_textField becomeFirstResponder];
+    _textField.keyboardType = UIKeyboardTypeNumberPad;
+    [_textField addTarget:self action:@selector(textDidChanged:) forControlEvents:(UIControlEventEditingChanged)];
+}
+- (void)initUI {
+    if (self.bgView) {
+        [self.bgView removeFromSuperview];
+        self.bgView=nil;
+    }
+   
+    [self addSubview:self.bgView];
+     self.bgView.layer.borderColor = [[UIColor blackColor] colorWithAlphaComponent:0.3].CGColor;
+     self.bgView.layer.borderWidth = 1;
+     self.bgView.backgroundColor = [UIColor whiteColor];
+    
+    [self.bgView mas_makeConstraints:^(MASConstraintMaker *make) {
         make.top.bottom.equalTo(self);
         make.left.equalTo(self).offset(MARGIN);
         make.right.equalTo(self).offset(-MARGIN);
@@ -57,7 +114,6 @@
     CGFloat width = ([UIScreen mainScreen].bounds.size.width - 2 * MARGIN) / count;
 
     for (int i = 0; i < count; i ++) {
-        
         UILabel *label = [[UILabel alloc] init];
         label.textColor = [UIColor blackColor];
         label.font = [UIFont systemFontOfSize:20];
@@ -184,9 +240,9 @@
 -(UIView *)bgView{
     if (!_bgView) {
         _bgView=[[UIView alloc] init];
-          _bgView.layer.borderColor = [[UIColor blackColor] colorWithAlphaComponent:0.3].CGColor;
-          _bgView.layer.borderWidth = 1;
-          _bgView.backgroundColor = [UIColor whiteColor];
+//          _bgView.layer.borderColor = [[UIColor blackColor] colorWithAlphaComponent:0.3].CGColor;
+//          _bgView.layer.borderWidth = 1;
+//          _bgView.backgroundColor = [UIColor whiteColor];
         
     }
     return _bgView;
