@@ -21,11 +21,11 @@ Pod::Spec.new do |s|
 验证码,短信一键导入，支付密码等
                        DESC
 
-  s.homepage         = 'https://github.com/SSPSource/SSVerifyCodeView'
+  s.homepage         = 'https://github.com/sspAppTeam/SSVerifyCodeView'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'SSPSource' => '2316585240@qq.com' }
-  s.source           = { :git => 'https://github.com/SSPSource/SSVerifyCodeView.git', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/sspAppTeam/SSVerifyCodeView.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '8.0'
