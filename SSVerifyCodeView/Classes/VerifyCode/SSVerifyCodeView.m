@@ -6,14 +6,14 @@
 //
 
 #import "SSVerifyCodeView.h"
-#import "UITextField+DeleteWord.h"
+#import "CodeTextField+DeleteWord.h"
+#import "CodeTextField.h"
 #import <Masonry/Masonry.h>
 #define MARGIN 10
 
-
 @interface SSVerifyCodeView ()
 @property (nonatomic,strong) UIView *bgView;
-@property (nonatomic,strong) UITextField *textField;
+@property (nonatomic,strong) CodeTextField *textField;
 @property (nonatomic,strong) NSMutableArray <UILabel *>*labelArray;
 @property (nonatomic,copy) NSString *codeString;
 @end
@@ -84,7 +84,7 @@
     }
 
     
-    _textField = [[UITextField alloc] init];
+    _textField = [[CodeTextField alloc] init];
     _textField.borderStyle=UITextBorderStyleNone;
     [self addSubview:_textField];
 //    _textField.backgroundColor=[UIColor greenColor];
@@ -144,7 +144,7 @@
         }];
     }
     
-    _textField = [[UITextField alloc] init];
+    _textField = [[CodeTextField alloc] init];
     [self addSubview:_textField];
     
     [_textField becomeFirstResponder];
@@ -249,7 +249,7 @@
 }
 -(UITextField*)textField{
     if (!_textField) {
-        _textField=[[UITextField alloc] init];
+        _textField=[[CodeTextField alloc] init];
     }
     return _textField;
 }

@@ -1,15 +1,15 @@
 //
-//  UITextField+DeleteWord.m
+//  CodeTextField+DeleteWord.m
 //  FBSnapshotTestCase
 //
-//  Created by ssp on 2020/3/9.
+//  Created by ssp on 2020/3/12.
 //
 
-#import "UITextField+DeleteWord.h"
+#import "CodeTextField+DeleteWord.h"
 
 #import <objc/runtime.h>
 NSString * const TextFieldDidDeleteBackwardNotification = @"TextFieldDidDeleteBackwardNotification";
-@implementation UITextField (DeleteWord)
+@implementation CodeTextField (DeleteWord)
 + (void)load {
     Method method1 = class_getInstanceMethod([self class], NSSelectorFromString(@"deleteBackward"));
     Method method2 = class_getInstanceMethod([self class], @selector(textField_deleteBackward));
@@ -19,4 +19,5 @@ NSString * const TextFieldDidDeleteBackwardNotification = @"TextFieldDidDeleteBa
 - (void)textField_deleteBackward {
     [[NSNotificationCenter defaultCenter] postNotificationName:TextFieldDidDeleteBackwardNotification object:nil];
 }
+
 @end

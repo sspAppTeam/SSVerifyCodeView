@@ -1,19 +1,20 @@
 //
-//  UITextField+DeleteWord.h
+//  CodeTextField+DeleteWord.h
 //  FBSnapshotTestCase
 //
-//  Created by ssp on 2020/3/9.
+//  Created by ssp on 2020/3/12.
 //
 
-#import <UIKit/UIKit.h>
+
+
+#import "CodeTextField.h"
 
 NS_ASSUME_NONNULL_BEGIN
 /**
  *  监听删除按钮
  */
 extern NSString * const TextFieldDidDeleteBackwardNotification;
-
-@interface UITextField (DeleteWord)
+@interface CodeTextField (DeleteWord)
 
 @end
 
