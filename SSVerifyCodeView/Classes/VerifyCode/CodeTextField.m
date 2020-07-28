@@ -16,5 +16,13 @@
     // Drawing code
 }
 */
+-(void)deleteBackward{
+    [super deleteBackward];
+    if (self.delectBlock) {
+        self.delectBlock();
+    }
+    
+}
+
 
 @end

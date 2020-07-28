@@ -26,7 +26,7 @@
         self.isSecure=YES;
         self.isSegmentation=YES;
         [self initCodeView];
-        [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(deleteBackward) name:TextFieldDidDeleteBackwardNotification object:nil];
+//        [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(deleteBackward) name:TextFieldDidDeleteBackwardNotification object:nil];
     }
     return self;
 }
@@ -84,14 +84,17 @@
     }
 
     
-    _textField = [[CodeTextField alloc] init];
-    _textField.borderStyle=UITextBorderStyleNone;
-    [self addSubview:_textField];
+  
+   
+    [self addSubview:self.textField];
 //    _textField.backgroundColor=[UIColor greenColor];
-    
+     _textField.borderStyle=UITextBorderStyleNone;
     [_textField becomeFirstResponder];
     _textField.keyboardType = UIKeyboardTypeNumberPad;
     [_textField addTarget:self action:@selector(textDidChanged:) forControlEvents:(UIControlEventEditingChanged)];
+    self.textField.delectBlock = ^{
+           [self deleteBackcward];
+       };
 }
 - (void)initUI {
     if (self.bgView) {
@@ -144,12 +147,15 @@
         }];
     }
     
-    _textField = [[CodeTextField alloc] init];
-    [self addSubview:_textField];
+   
+    [self addSubview:self.textField];
     
     [_textField becomeFirstResponder];
     _textField.keyboardType = UIKeyboardTypeNumberPad;
     [_textField addTarget:self action:@selector(textDidChanged:) forControlEvents:(UIControlEventEditingChanged)];
+    self.textField.delectBlock = ^{
+          [self deleteBackcward];
+      };
 }
 
 - (void)textDidChanged:(UITextField *)textField {
@@ -205,7 +211,7 @@
 }
 
 
-- (void)deleteBackward {
+- (void)deleteBackcward {
     
     for (int i = (int)self.labelArray.count - 1; i >= 0; i --) {
         UILabel *label = self.labelArray[i];

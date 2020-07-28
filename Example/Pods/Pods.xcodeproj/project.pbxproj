@@ -8,36 +8,33 @@
 
 /* Begin PBXBuildFile section */
 		00224C929D57F45B70E87359E719948D /* FBSnapshotTestCase.h in Headers */ = {isa = PBXBuildFile; fileRef = A081F942C2085E6848F402E5F78FE9FA /* FBSnapshotTestCase.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		011DF8BFE1A4961DDED6E41F691FA5DE /* Masonry.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 571D18C2E4315CA0EE50281AEB95D9C8 /* Masonry.framework */; };
 		05A040F35BF1C88F869404E1A940B493 /* NSArray+MASShorthandAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = C14DC0AB109ACBEFEEA858FD26775100 /* NSArray+MASShorthandAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		05EA1447EEA0EB669F8DEE73964A7C60 /* NSArray+MASAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 1FF66FE785395C4D1DF40E16B498CF2C /* NSArray+MASAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		0967598607D521318F69D7D39D517B20 /* ViewController+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 78C43FB3EB5046CBB6DFC13074605633 /* ViewController+MASAdditions.m */; };
 		098630ECDB64ED7B89F5F687C82B4AC3 /* NSArray+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = D26E0542DACEF790346281E9B7E16B4E /* NSArray+MASAdditions.m */; };
 		0AF1AD35706D90B1A91F291B899EF8C0 /* NSLayoutConstraint+MASDebugAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 02D0B131734D26DB5D5ACF1FAC08DD57 /* NSLayoutConstraint+MASDebugAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		0BF87AEF261E0B17FE7ED1A4D546B5BB /* Masonry.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 571D18C2E4315CA0EE50281AEB95D9C8 /* Masonry.framework */; };
+		0BA57EBB0B14CAE6363A040425A1AF8A /* SSVerifyCodeView-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E626AB61C67A9BD7662A85F66CABB0B4 /* SSVerifyCodeView-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		11C410135C7E89353B480AC8DE0BFB77 /* UIApplication+StrictKeyWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = 48DC998C1ADA91F21F291A591DCD77C8 /* UIApplication+StrictKeyWindow.m */; };
 		14AD81D52FAD9CF2C065C61FB00C3B4F /* UIImage+Diff.m in Sources */ = {isa = PBXBuildFile; fileRef = 36EE8B8BB5CFB179B4341911563BDB1B /* UIImage+Diff.m */; };
 		14C511527597E5846AB2627F791C7D8E /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E1DF1791AD5AA72DFFD4CB94F5FA17F /* QuartzCore.framework */; };
 		1972E85F0FCD0F3EAF28ED7CD036286E /* Masonry-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 24AC2D6ADE1E9CD6614AAD12383D072A /* Masonry-dummy.m */; };
 		265C073D80B5644E4B329EEA3C82996C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 94C659800879B63083DE392800723BE1 /* Foundation.framework */; };
 		280D36330BAC5715615FF4A8B42D60D6 /* MASUtilities.h in Headers */ = {isa = PBXBuildFile; fileRef = 538E7F5350A389FCCF481A6BC30E7F72 /* MASUtilities.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		28A761F351B24D87A3C85926FF6693C5 /* SSVerifyCodeView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F6BC59E0E7BFC415BA3CB32DDB9CA92 /* SSVerifyCodeView-dummy.m */; };
 		297A3627CF2F032CBFDC61D1A3786E63 /* MASViewAttribute.m in Sources */ = {isa = PBXBuildFile; fileRef = C7724D9BB5EAC090DCF3468FF6BEF246 /* MASViewAttribute.m */; };
 		2DCFF0CE0BD295F1D46D3247F36B192C /* UIImage+Compare.m in Sources */ = {isa = PBXBuildFile; fileRef = 7008DA1EBC7FB7F3D2EA4B3DA69F1A9E /* UIImage+Compare.m */; };
 		346080C0D1CA23399ADD739D722D7CEF /* Masonry.h in Headers */ = {isa = PBXBuildFile; fileRef = DDE045E16493660ECF08D6AAE77D40E7 /* Masonry.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		3DA5F1D8E51CDD102A871C2F37770C7B /* MASViewAttribute.h in Headers */ = {isa = PBXBuildFile; fileRef = 715C6EA125C5989AE7E784C322F959A0 /* MASViewAttribute.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		40039E0AF0D764360B1D4FC4F7950D2E /* UIApplication+StrictKeyWindow.h in Headers */ = {isa = PBXBuildFile; fileRef = 71C17EEC81CA6EA4507350F059D58474 /* UIApplication+StrictKeyWindow.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		4B0981F9AC628CF5100C50FF4A163A4A /* View+MASAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = CC279CEECA0C7336620CC664EF9F900C /* View+MASAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		4CBB7A5D91458AA7953AFDEA922C5CC1 /* SSVerifyCodeView.m in Sources */ = {isa = PBXBuildFile; fileRef = 852BBD6CB7AF5E069BA5E935983134BC /* SSVerifyCodeView.m */; };
 		65E3D86FD45441EE66A269E4B2AFD76C /* Pods-SSVerifyCodeView_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B5CA4FB9B35803A383962E9F1DBD6AD /* Pods-SSVerifyCodeView_Tests-dummy.m */; };
 		66ECA0BAC55D9B5B3F788E201051365A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 94C659800879B63083DE392800723BE1 /* Foundation.framework */; };
+		688E0C39EB2D065A855B331001DC3EBB /* ReplaceMe.m in Sources */ = {isa = PBXBuildFile; fileRef = E4B3E39B9266B15A8D0518A40E3BDDB1 /* ReplaceMe.m */; };
 		6A6AD3A5BBDBFD0B4AF936BD518EC0B1 /* Masonry-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = CB92C40F45A891F20727C080472B2C76 /* Masonry-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		6AE239C5D116E1C06F5705699FB9EAF0 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8AD5C82799AB5A03561274DB41F07AC5 /* XCTest.framework */; };
-		6CDFBD842419C54F0059B15E /* CodeTextField.h in Headers */ = {isa = PBXBuildFile; fileRef = 6CDFBD822419C54F0059B15E /* CodeTextField.h */; };
-		6CDFBD852419C54F0059B15E /* CodeTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = 6CDFBD832419C54F0059B15E /* CodeTextField.m */; };
-		6CDFBD882419C5810059B15E /* CodeTextField+DeleteWord.h in Headers */ = {isa = PBXBuildFile; fileRef = 6CDFBD862419C5810059B15E /* CodeTextField+DeleteWord.h */; };
-		6CDFBD892419C5810059B15E /* CodeTextField+DeleteWord.m in Sources */ = {isa = PBXBuildFile; fileRef = 6CDFBD872419C5810059B15E /* CodeTextField+DeleteWord.m */; };
 		6DBC8EB7532E931C2FBDA71D1E0B66A4 /* FBSnapshotTestCase-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 76B9175410197094EABEA30B3B1CBF98 /* FBSnapshotTestCase-dummy.m */; };
-		7737661587F2BD78F6D761B46D8CD7E4 /* SSVerifyCodeView.h in Headers */ = {isa = PBXBuildFile; fileRef = D265EDF960453C96B10F5C82AFD5F06C /* SSVerifyCodeView.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		77904EBEAF62E590DCA58C1F79E342B7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 94C659800879B63083DE392800723BE1 /* Foundation.framework */; };
+		715E60998C02BAE4EE857774FC098292 /* SSVerifyCodeView.h in Headers */ = {isa = PBXBuildFile; fileRef = 0E385A6C80B2CD15D6C2F024F95886CF /* SSVerifyCodeView.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		78B2727EE5D693F58D019DB098005101 /* MASConstraintMaker.m in Sources */ = {isa = PBXBuildFile; fileRef = 94451514216018C16E3AF2F48DDBE55B /* MASConstraintMaker.m */; };
 		7BFF65958F014760B6AC4742824892EB /* MASCompositeConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = C56D9078204B2752922B4FC52C369A24 /* MASCompositeConstraint.m */; };
 		8539B851E01A58467BE49CA3FA77223C /* MASLayoutConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = C99CBCC842005CF485C7845B9169BBB0 /* MASLayoutConstraint.m */; };
@@ -52,25 +49,28 @@
 		9D546E1168C04B0B2EAE005D9275D18B /* MASConstraint+Private.h in Headers */ = {isa = PBXBuildFile; fileRef = 5D32EE87674FB7742F60C8F08D221123 /* MASConstraint+Private.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		9D65089019D558E5A9661F2DCAD20313 /* SwiftSupport.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD43EB6F08175E8364D93DE89E4F1623 /* SwiftSupport.swift */; };
 		A35FBEEC7D088AEC05297E8292A32C77 /* View+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 928B02F42DB1641757BB481565745FB3 /* View+MASAdditions.m */; };
-		A4D4BC7ECE263621C329DCD452EE8A21 /* SSVerifyCodeView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 55CF011834CBDFC8AE313B1F15264E9A /* SSVerifyCodeView-dummy.m */; };
 		A525E29E0A8079B35B793D8A2B5FBDF2 /* UIImage+Snapshot.m in Sources */ = {isa = PBXBuildFile; fileRef = 314F5C5C7A9EDD0C0716A8CD1FB620F8 /* UIImage+Snapshot.m */; };
 		B25D795BDC4F426BC01EFC911F368B81 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 94C659800879B63083DE392800723BE1 /* Foundation.framework */; };
-		B3BFB2D5D318CD1F12A08F41F8EE08FF /* ReplaceMe.m in Sources */ = {isa = PBXBuildFile; fileRef = A68FE89ED17E60784990607C75FF25F6 /* ReplaceMe.m */; };
 		B74CD6E6EBEA0B642776BCB37850415D /* UIImage+Snapshot.h in Headers */ = {isa = PBXBuildFile; fileRef = 30991CF355BBE584628FE40B9B0C066A /* UIImage+Snapshot.h */; settings = {ATTRIBUTES = (Private, ); }; };
 		B7D645EC004610E8A581E532D28771EC /* MASViewConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 708FC20E70A5C162B340862E7114EE55 /* MASViewConstraint.m */; };
+		BACE3C43D147DE35B247692F0D5944A7 /* CodeTextField.h in Headers */ = {isa = PBXBuildFile; fileRef = 1E08255E61DEBED85F79B3FE78431D9C /* CodeTextField.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BB0020576551DCB80D8CE001E1C308E3 /* SSVerifyCodeView.m in Sources */ = {isa = PBXBuildFile; fileRef = 32C909FC9A4DC62EA1F0DF1FA5B6F143 /* SSVerifyCodeView.m */; };
+		BB220A70DBA667700E02D834D75240FC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 94C659800879B63083DE392800723BE1 /* Foundation.framework */; };
 		C0861ADB4C5FA30F4F9E051F7638A264 /* NSLayoutConstraint+MASDebugAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 006BB846173FC9353F087568260E494A /* NSLayoutConstraint+MASDebugAdditions.m */; };
 		C49D52712466511E332C952834C81FE1 /* FBSnapshotTestCasePlatform.h in Headers */ = {isa = PBXBuildFile; fileRef = B1441C3C961581D90ACDD3D1DE0328F1 /* FBSnapshotTestCasePlatform.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CAF7039983A53A255BA2EB87C6439438 /* CodeTextField+DeleteWord.m in Sources */ = {isa = PBXBuildFile; fileRef = 80F31A78CC6BE1CA32B45DFD89CA5638 /* CodeTextField+DeleteWord.m */; };
 		CE93C54413259B4AC3683B6EB874D466 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9622FCB360DEC4256351F3BB2B53974E /* UIKit.framework */; };
 		D04AAC8B22E4A4DC4F39891C4E52F251 /* UIImage+Diff.h in Headers */ = {isa = PBXBuildFile; fileRef = B40D7FC1575B809FD4FC34DD4ADBE81E /* UIImage+Diff.h */; settings = {ATTRIBUTES = (Private, ); }; };
-		D7533C72B2ACC6F093E19999B6DACA4D /* SSVerifyCodeView-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 857B3F032D7C6DC9C8363C0BC0ECAC9F /* SSVerifyCodeView-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		DBE485EE5C9C742E478138F9A8D63945 /* Pods-SSVerifyCodeView_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 988F3617CFCB37F3137DD38FD60D51CD /* Pods-SSVerifyCodeView_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		DEE9AF2C98C84247329720EC95C8C192 /* Pods-SSVerifyCodeView_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 01E7CF1EA31D296C58364EE4D9267284 /* Pods-SSVerifyCodeView_Example-dummy.m */; };
 		E0B8D095C732352C854D365B9E5B993D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9622FCB360DEC4256351F3BB2B53974E /* UIKit.framework */; };
+		E49976F23249BC022213C5006FBE47CF /* CodeTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = 623E2BA36F6638CC9A4ED5870EF19898 /* CodeTextField.m */; };
 		E51F496BDC6ACADE04FDA059C6CB2342 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 94C659800879B63083DE392800723BE1 /* Foundation.framework */; };
 		E7CA20228B3583F41927813EE904CAD3 /* View+MASShorthandAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 8252146A9D99797754610803F220A731 /* View+MASShorthandAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		E8AC509D18EBF21B1FEA909652A01108 /* FBSnapshotTestCasePlatform.m in Sources */ = {isa = PBXBuildFile; fileRef = 11BDCEE34F34864FC3A8E1ED673D3E3A /* FBSnapshotTestCasePlatform.m */; };
 		E8DD5D1D406150E1C80AD015271B6848 /* MASConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = B4D86EA2AB4C2CAB5E1B88AD89CEF415 /* MASConstraint.m */; };
 		EAE8B0895956885A752B173683A0D889 /* MASViewConstraint.h in Headers */ = {isa = PBXBuildFile; fileRef = 68EEB53888D9DC9DC5DF76F836F84C61 /* MASViewConstraint.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F146015A756E84AF42658EC6B0368D4B /* CodeTextField+DeleteWord.h in Headers */ = {isa = PBXBuildFile; fileRef = ABF6E9409A0C2D2D5AAC0E72F96C75F7 /* CodeTextField+DeleteWord.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		F1AAAE00BB32B733B238E2B4E8424506 /* UIImage+Compare.h in Headers */ = {isa = PBXBuildFile; fileRef = 41FAE5C926DB40D236540453E01F6BFE /* UIImage+Compare.h */; settings = {ATTRIBUTES = (Private, ); }; };
 		F720FAF13A108CE6901E0A8B0580E1E8 /* FBSnapshotTestCase-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 43CC20AD4F902B45548B8D9BAD4B0C77 /* FBSnapshotTestCase-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		FAFBFA90F7BC3E7CF50F8A5CF0A8B264 /* MASConstraintMaker.h in Headers */ = {isa = PBXBuildFile; fileRef = 76DDF08C39BD8CD5427671E45F4BAC20 /* MASConstraintMaker.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -83,13 +83,6 @@
 			proxyType = 1;
 			remoteGlobalIDString = 98A98149697C80CEF8D5772791E92E66;
 			remoteInfo = FBSnapshotTestCase;
-		};
-		9376FF0E503E8C5C3EF06E8D64E49573 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 55AF53E6C77A10ED4985E04D74A8878E;
-			remoteInfo = Masonry;
 		};
 		C8C071366F4198003A7586AA0E498FA5 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -104,6 +97,13 @@
 			proxyType = 1;
 			remoteGlobalIDString = DAE7EEA1D422DA260B71306057754A2B;
 			remoteInfo = SSVerifyCodeView;
+		};
+		DE12ACCA1C67604D34F9C5994CD82A9F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 55AF53E6C77A10ED4985E04D74A8878E;
+			remoteInfo = Masonry;
 		};
 		E95943B9EC87072A09B14BCEBD1D2DDE /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -120,40 +120,37 @@
 		01E7CF1EA31D296C58364EE4D9267284 /* Pods-SSVerifyCodeView_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SSVerifyCodeView_Example-dummy.m"; sourceTree = "<group>"; };
 		02D0B131734D26DB5D5ACF1FAC08DD57 /* NSLayoutConstraint+MASDebugAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSLayoutConstraint+MASDebugAdditions.h"; path = "Masonry/NSLayoutConstraint+MASDebugAdditions.h"; sourceTree = "<group>"; };
 		07532566793DFE8D7DB4017480857F81 /* Masonry-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Masonry-Info.plist"; sourceTree = "<group>"; };
-		077610244A5F4ECE37FC45A6F0399035 /* SSVerifyCodeView.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = SSVerifyCodeView.modulemap; sourceTree = "<group>"; };
+		0E385A6C80B2CD15D6C2F024F95886CF /* SSVerifyCodeView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = SSVerifyCodeView.h; sourceTree = "<group>"; };
 		11BDCEE34F34864FC3A8E1ED673D3E3A /* FBSnapshotTestCasePlatform.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FBSnapshotTestCasePlatform.m; path = FBSnapshotTestCase/FBSnapshotTestCasePlatform.m; sourceTree = "<group>"; };
 		1312E9F6D31EE1DC134A5292B39D4E4B /* Pods-SSVerifyCodeView_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SSVerifyCodeView_Tests-Info.plist"; sourceTree = "<group>"; };
-		18FB7DE2B9674D4B66AF50EEFC0908B2 /* SSVerifyCodeView-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SSVerifyCodeView-prefix.pch"; sourceTree = "<group>"; };
 		1AE41BE2A951AAA2AFA8E19110F9E2A9 /* FBSnapshotTestCase.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FBSnapshotTestCase.m; path = FBSnapshotTestCase/FBSnapshotTestCase.m; sourceTree = "<group>"; };
+		1B547935F3DCB08AF421374E6116E5BA /* SSVerifyCodeView-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SSVerifyCodeView-prefix.pch"; sourceTree = "<group>"; };
 		1B853CE2757FD35CF6DB144FD83AA3A7 /* FBSnapshotTestCase-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "FBSnapshotTestCase-Info.plist"; sourceTree = "<group>"; };
 		1D67DD8092CC0CBE7E4208414CC17F77 /* MASConstraint.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASConstraint.h; path = Masonry/MASConstraint.h; sourceTree = "<group>"; };
+		1E08255E61DEBED85F79B3FE78431D9C /* CodeTextField.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = CodeTextField.h; sourceTree = "<group>"; };
 		1FF66FE785395C4D1DF40E16B498CF2C /* NSArray+MASAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSArray+MASAdditions.h"; path = "Masonry/NSArray+MASAdditions.h"; sourceTree = "<group>"; };
-		1FFED36A657123030ABB700256D73F15 /* Masonry.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Masonry.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1FFED36A657123030ABB700256D73F15 /* Masonry.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Masonry.framework; path = Masonry.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		24AC2D6ADE1E9CD6614AAD12383D072A /* Masonry-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Masonry-dummy.m"; sourceTree = "<group>"; };
+		2F6BC59E0E7BFC415BA3CB32DDB9CA92 /* SSVerifyCodeView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SSVerifyCodeView-dummy.m"; sourceTree = "<group>"; };
 		30991CF355BBE584628FE40B9B0C066A /* UIImage+Snapshot.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+Snapshot.h"; path = "FBSnapshotTestCase/Categories/UIImage+Snapshot.h"; sourceTree = "<group>"; };
 		314F5C5C7A9EDD0C0716A8CD1FB620F8 /* UIImage+Snapshot.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+Snapshot.m"; path = "FBSnapshotTestCase/Categories/UIImage+Snapshot.m"; sourceTree = "<group>"; };
-		36C0F014685CCF4988F1723025881C25 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		32C909FC9A4DC62EA1F0DF1FA5B6F143 /* SSVerifyCodeView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = SSVerifyCodeView.m; sourceTree = "<group>"; };
 		36EE8B8BB5CFB179B4341911563BDB1B /* UIImage+Diff.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+Diff.m"; path = "FBSnapshotTestCase/Categories/UIImage+Diff.m"; sourceTree = "<group>"; };
 		3B6D2AFD965EB8FAA3E0ADE1E11C4222 /* Pods-SSVerifyCodeView_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SSVerifyCodeView_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		3E1DF1791AD5AA72DFFD4CB94F5FA17F /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/QuartzCore.framework; sourceTree = DEVELOPER_DIR; };
-		3EE7A00AC697EB0D58ACA194140C9673 /* SSVerifyCodeView-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "SSVerifyCodeView-Info.plist"; sourceTree = "<group>"; };
 		41FAE5C926DB40D236540453E01F6BFE /* UIImage+Compare.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+Compare.h"; path = "FBSnapshotTestCase/Categories/UIImage+Compare.h"; sourceTree = "<group>"; };
 		43CC20AD4F902B45548B8D9BAD4B0C77 /* FBSnapshotTestCase-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FBSnapshotTestCase-umbrella.h"; sourceTree = "<group>"; };
 		48DC998C1ADA91F21F291A591DCD77C8 /* UIApplication+StrictKeyWindow.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIApplication+StrictKeyWindow.m"; path = "FBSnapshotTestCase/Categories/UIApplication+StrictKeyWindow.m"; sourceTree = "<group>"; };
 		4A641AAEE41BE2CC63A32D0BAB67EC72 /* MASCompositeConstraint.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASCompositeConstraint.h; path = Masonry/MASCompositeConstraint.h; sourceTree = "<group>"; };
 		4BED5611856700024C3B6BDA38806C92 /* FBSnapshotTestController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FBSnapshotTestController.m; path = FBSnapshotTestCase/FBSnapshotTestController.m; sourceTree = "<group>"; };
 		538E7F5350A389FCCF481A6BC30E7F72 /* MASUtilities.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASUtilities.h; path = Masonry/MASUtilities.h; sourceTree = "<group>"; };
-		55CF011834CBDFC8AE313B1F15264E9A /* SSVerifyCodeView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SSVerifyCodeView-dummy.m"; sourceTree = "<group>"; };
 		571D18C2E4315CA0EE50281AEB95D9C8 /* Masonry.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Masonry.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		5B5CA4FB9B35803A383962E9F1DBD6AD /* Pods-SSVerifyCodeView_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SSVerifyCodeView_Tests-dummy.m"; sourceTree = "<group>"; };
 		5BEFB81E5FEBA7CF147A23EF207CF0A9 /* FBSnapshotTestCase.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FBSnapshotTestCase.xcconfig; sourceTree = "<group>"; };
-		5C4F31330DFA99D699E4BDC8C3573D73 /* FBSnapshotTestCase.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = FBSnapshotTestCase.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5C4F31330DFA99D699E4BDC8C3573D73 /* FBSnapshotTestCase.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = FBSnapshotTestCase.framework; path = FBSnapshotTestCase.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		5D32EE87674FB7742F60C8F08D221123 /* MASConstraint+Private.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "MASConstraint+Private.h"; path = "Masonry/MASConstraint+Private.h"; sourceTree = "<group>"; };
+		623E2BA36F6638CC9A4ED5870EF19898 /* CodeTextField.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = CodeTextField.m; sourceTree = "<group>"; };
 		68EEB53888D9DC9DC5DF76F836F84C61 /* MASViewConstraint.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASViewConstraint.h; path = Masonry/MASViewConstraint.h; sourceTree = "<group>"; };
-		6CDFBD822419C54F0059B15E /* CodeTextField.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CodeTextField.h; sourceTree = "<group>"; };
-		6CDFBD832419C54F0059B15E /* CodeTextField.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CodeTextField.m; sourceTree = "<group>"; };
-		6CDFBD862419C5810059B15E /* CodeTextField+DeleteWord.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CodeTextField+DeleteWord.h"; sourceTree = "<group>"; };
-		6CDFBD872419C5810059B15E /* CodeTextField+DeleteWord.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "CodeTextField+DeleteWord.m"; sourceTree = "<group>"; };
 		7008DA1EBC7FB7F3D2EA4B3DA69F1A9E /* UIImage+Compare.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+Compare.m"; path = "FBSnapshotTestCase/Categories/UIImage+Compare.m"; sourceTree = "<group>"; };
 		708FC20E70A5C162B340862E7114EE55 /* MASViewConstraint.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MASViewConstraint.m; path = Masonry/MASViewConstraint.m; sourceTree = "<group>"; };
 		70A895972A4519FD53AFAF38E5A63895 /* Pods-SSVerifyCodeView_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SSVerifyCodeView_Example.debug.xcconfig"; sourceTree = "<group>"; };
@@ -163,10 +160,10 @@
 		76B9175410197094EABEA30B3B1CBF98 /* FBSnapshotTestCase-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "FBSnapshotTestCase-dummy.m"; sourceTree = "<group>"; };
 		76DDF08C39BD8CD5427671E45F4BAC20 /* MASConstraintMaker.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASConstraintMaker.h; path = Masonry/MASConstraintMaker.h; sourceTree = "<group>"; };
 		78C43FB3EB5046CBB6DFC13074605633 /* ViewController+MASAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "ViewController+MASAdditions.m"; path = "Masonry/ViewController+MASAdditions.m"; sourceTree = "<group>"; };
+		80F31A78CC6BE1CA32B45DFD89CA5638 /* CodeTextField+DeleteWord.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "CodeTextField+DeleteWord.m"; sourceTree = "<group>"; };
 		8252146A9D99797754610803F220A731 /* View+MASShorthandAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "View+MASShorthandAdditions.h"; path = "Masonry/View+MASShorthandAdditions.h"; sourceTree = "<group>"; };
-		852BBD6CB7AF5E069BA5E935983134BC /* SSVerifyCodeView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = SSVerifyCodeView.m; sourceTree = "<group>"; };
-		857B3F032D7C6DC9C8363C0BC0ECAC9F /* SSVerifyCodeView-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SSVerifyCodeView-umbrella.h"; sourceTree = "<group>"; };
 		876B26B2034B3C980FE225E82B67F38F /* Pods-SSVerifyCodeView_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SSVerifyCodeView_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		8A74677025F498AFCE42AA552805C4F8 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
 		8AD5C82799AB5A03561274DB41F07AC5 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		8B5D2220ECCA851E8E5846FBDBDA62B5 /* Pods-SSVerifyCodeView_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SSVerifyCodeView_Example-frameworks.sh"; sourceTree = "<group>"; };
 		8BEBCEC6EBDDF225FE1FEC2123C0D344 /* FBSnapshotTestController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBSnapshotTestController.h; path = FBSnapshotTestCase/FBSnapshotTestController.h; sourceTree = "<group>"; };
@@ -177,28 +174,29 @@
 		94C659800879B63083DE392800723BE1 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		9622FCB360DEC4256351F3BB2B53974E /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
 		988F3617CFCB37F3137DD38FD60D51CD /* Pods-SSVerifyCodeView_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SSVerifyCodeView_Example-umbrella.h"; sourceTree = "<group>"; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9B5C7B9BBE0BD886D436B3F5F75588BF /* SSVerifyCodeView.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SSVerifyCodeView.xcconfig; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		A081F942C2085E6848F402E5F78FE9FA /* FBSnapshotTestCase.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBSnapshotTestCase.h; path = FBSnapshotTestCase/FBSnapshotTestCase.h; sourceTree = "<group>"; };
-		A0AF995D47805B8E7D51E59AA9C7BB99 /* Pods_SSVerifyCodeView_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SSVerifyCodeView_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		A68FE89ED17E60784990607C75FF25F6 /* ReplaceMe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ReplaceMe.m; path = SSVerifyCodeView/Classes/ReplaceMe.m; sourceTree = "<group>"; };
+		A0AF995D47805B8E7D51E59AA9C7BB99 /* Pods_SSVerifyCodeView_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_SSVerifyCodeView_Tests.framework; path = "Pods-SSVerifyCodeView_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		ABF6E9409A0C2D2D5AAC0E72F96C75F7 /* CodeTextField+DeleteWord.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CodeTextField+DeleteWord.h"; sourceTree = "<group>"; };
+		AC582463BC8B529FF8DBB20DC70A7923 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		AD1226887505C7DE9378BFAB6DA6F609 /* SSVerifyCodeView-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "SSVerifyCodeView-Info.plist"; sourceTree = "<group>"; };
 		B1441C3C961581D90ACDD3D1DE0328F1 /* FBSnapshotTestCasePlatform.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBSnapshotTestCasePlatform.h; path = FBSnapshotTestCase/FBSnapshotTestCasePlatform.h; sourceTree = "<group>"; };
 		B310F054C4728ECC09CA13CEF0F5F0D4 /* Masonry.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Masonry.xcconfig; sourceTree = "<group>"; };
 		B40D7FC1575B809FD4FC34DD4ADBE81E /* UIImage+Diff.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+Diff.h"; path = "FBSnapshotTestCase/Categories/UIImage+Diff.h"; sourceTree = "<group>"; };
 		B4D86EA2AB4C2CAB5E1B88AD89CEF415 /* MASConstraint.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MASConstraint.m; path = Masonry/MASConstraint.m; sourceTree = "<group>"; };
-		B96C1DF005D2B6696EFC5D79DE5E125B /* Pods_SSVerifyCodeView_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SSVerifyCodeView_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B96C1DF005D2B6696EFC5D79DE5E125B /* Pods_SSVerifyCodeView_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_SSVerifyCodeView_Example.framework; path = "Pods-SSVerifyCodeView_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		BE9CE4F068694ADF841DCE8F33D80819 /* Pods-SSVerifyCodeView_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SSVerifyCodeView_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		C14DC0AB109ACBEFEEA858FD26775100 /* NSArray+MASShorthandAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSArray+MASShorthandAdditions.h"; path = "Masonry/NSArray+MASShorthandAdditions.h"; sourceTree = "<group>"; };
 		C2B10BD18B8B359188009F43FDE94750 /* Pods-SSVerifyCodeView_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SSVerifyCodeView_Tests-umbrella.h"; sourceTree = "<group>"; };
+		C4677425A7CD774880EE0E88C0FFA5F7 /* SSVerifyCodeView.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = SSVerifyCodeView.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		C56D9078204B2752922B4FC52C369A24 /* MASCompositeConstraint.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MASCompositeConstraint.m; path = Masonry/MASCompositeConstraint.m; sourceTree = "<group>"; };
 		C7724D9BB5EAC090DCF3468FF6BEF246 /* MASViewAttribute.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MASViewAttribute.m; path = Masonry/MASViewAttribute.m; sourceTree = "<group>"; };
 		C99CBCC842005CF485C7845B9169BBB0 /* MASLayoutConstraint.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MASLayoutConstraint.m; path = Masonry/MASLayoutConstraint.m; sourceTree = "<group>"; };
 		CB92C40F45A891F20727C080472B2C76 /* Masonry-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Masonry-umbrella.h"; sourceTree = "<group>"; };
 		CC279CEECA0C7336620CC664EF9F900C /* View+MASAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "View+MASAdditions.h"; path = "Masonry/View+MASAdditions.h"; sourceTree = "<group>"; };
-		CC5441835F290251063042B968860BFC /* SSVerifyCodeView.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = SSVerifyCodeView.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		D265EDF960453C96B10F5C82AFD5F06C /* SSVerifyCodeView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = SSVerifyCodeView.h; sourceTree = "<group>"; };
 		D26E0542DACEF790346281E9B7E16B4E /* NSArray+MASAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSArray+MASAdditions.m"; path = "Masonry/NSArray+MASAdditions.m"; sourceTree = "<group>"; };
-		D628025FA39852490994B4A01AB1A51E /* SSVerifyCodeView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SSVerifyCodeView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		D6E750A22C40F2A1F8DD21FE217D335B /* SSVerifyCodeView.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SSVerifyCodeView.xcconfig; sourceTree = "<group>"; };
+		D628025FA39852490994B4A01AB1A51E /* SSVerifyCodeView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SSVerifyCodeView.framework; path = SSVerifyCodeView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D71013C976AE2093A6A6398EB155C45F /* Pods-SSVerifyCodeView_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SSVerifyCodeView_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		D9982EBC9A6A60786935962A58A324E1 /* ViewController+MASAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "ViewController+MASAdditions.h"; path = "Masonry/ViewController+MASAdditions.h"; sourceTree = "<group>"; };
 		D9E8665545FDEF846458058E0E0BD691 /* FBSnapshotTestCase-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FBSnapshotTestCase-prefix.pch"; sourceTree = "<group>"; };
@@ -206,7 +204,9 @@
 		DC8D8E025B74D5C8D24A9CEC544252CA /* Pods-SSVerifyCodeView_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-SSVerifyCodeView_Example.modulemap"; sourceTree = "<group>"; };
 		DDE045E16493660ECF08D6AAE77D40E7 /* Masonry.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Masonry.h; path = Masonry/Masonry.h; sourceTree = "<group>"; };
 		DEA24166C3BB6EF40F73A3BBEC5979EB /* Masonry-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Masonry-prefix.pch"; sourceTree = "<group>"; };
-		DF9F82CEEF069C2411E43A3AD51C6D69 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		E06130699C5244996C4BA36DF60F3F71 /* SSVerifyCodeView.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = SSVerifyCodeView.modulemap; sourceTree = "<group>"; };
+		E4B3E39B9266B15A8D0518A40E3BDDB1 /* ReplaceMe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ReplaceMe.m; path = SSVerifyCodeView/Classes/ReplaceMe.m; sourceTree = "<group>"; };
+		E626AB61C67A9BD7662A85F66CABB0B4 /* SSVerifyCodeView-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SSVerifyCodeView-umbrella.h"; sourceTree = "<group>"; };
 		E7A0583DD0F9C4ED89EFCAB6AC5E6D8A /* FBSnapshotTestCase.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = FBSnapshotTestCase.modulemap; sourceTree = "<group>"; };
 		E84976F28E57B49A9083CAD698CF7CFF /* Pods-SSVerifyCodeView_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SSVerifyCodeView_Tests-frameworks.sh"; sourceTree = "<group>"; };
 		E8FA8A0C6DC9B992146C67E5A1292BD7 /* Pods-SSVerifyCodeView_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-SSVerifyCodeView_Tests.modulemap"; sourceTree = "<group>"; };
@@ -243,6 +243,15 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		E9F9AF04623A01E2993B147D8DD3D898 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BB220A70DBA667700E02D834D75240FC /* Foundation.framework in Frameworks */,
+				011DF8BFE1A4961DDED6E41F691FA5DE /* Masonry.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		F073F53B350653E44E552702F2ED34C2 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -251,18 +260,19 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		F4C4C5D9466E1B1EE21CAF771820D530 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				77904EBEAF62E590DCA58C1F79E342B7 /* Foundation.framework in Frameworks */,
-				0BF87AEF261E0B17FE7ED1A4D546B5BB /* Masonry.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		038CD92B60DD25D5E293D0BCC5AFD770 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				8A74677025F498AFCE42AA552805C4F8 /* LICENSE */,
+				AC582463BC8B529FF8DBB20DC70A7923 /* README.md */,
+				C4677425A7CD774880EE0E88C0FFA5F7 /* SSVerifyCodeView.podspec */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
 		259BA79A1126B5CEDE808CE53B8E4DE9 /* iOS */ = {
 			isa = PBXGroup;
 			children = (
@@ -307,6 +317,20 @@
 			name = Core;
 			sourceTree = "<group>";
 		};
+		4A4E0EAA6FCAD80A6DA9252321F1A700 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				E06130699C5244996C4BA36DF60F3F71 /* SSVerifyCodeView.modulemap */,
+				9B5C7B9BBE0BD886D436B3F5F75588BF /* SSVerifyCodeView.xcconfig */,
+				2F6BC59E0E7BFC415BA3CB32DDB9CA92 /* SSVerifyCodeView-dummy.m */,
+				AD1226887505C7DE9378BFAB6DA6F609 /* SSVerifyCodeView-Info.plist */,
+				1B547935F3DCB08AF421374E6116E5BA /* SSVerifyCodeView-prefix.pch */,
+				E626AB61C67A9BD7662A85F66CABB0B4 /* SSVerifyCodeView-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/SSVerifyCodeView";
+			sourceTree = "<group>";
+		};
 		4A62A50A353010EE22AD4E07C3F1E2CC /* Pods */ = {
 			isa = PBXGroup;
 			children = (
@@ -346,21 +370,34 @@
 				78C43FB3EB5046CBB6DFC13074605633 /* ViewController+MASAdditions.m */,
 				B276E01707172936C5293A31C218E7D4 /* Support Files */,
 			);
+			name = Masonry;
 			path = Masonry;
 			sourceTree = "<group>";
 		};
-		5E6F9ED31A28663D362F75E4B21F3F10 /* Support Files */ = {
+		5B82BCB5F5F9D9BC68CF61AAD629C593 /* SSVerifyCodeView */ = {
 			isa = PBXGroup;
 			children = (
-				077610244A5F4ECE37FC45A6F0399035 /* SSVerifyCodeView.modulemap */,
-				D6E750A22C40F2A1F8DD21FE217D335B /* SSVerifyCodeView.xcconfig */,
-				55CF011834CBDFC8AE313B1F15264E9A /* SSVerifyCodeView-dummy.m */,
-				3EE7A00AC697EB0D58ACA194140C9673 /* SSVerifyCodeView-Info.plist */,
-				18FB7DE2B9674D4B66AF50EEFC0908B2 /* SSVerifyCodeView-prefix.pch */,
-				857B3F032D7C6DC9C8363C0BC0ECAC9F /* SSVerifyCodeView-umbrella.h */,
+				E4B3E39B9266B15A8D0518A40E3BDDB1 /* ReplaceMe.m */,
+				038CD92B60DD25D5E293D0BCC5AFD770 /* Pod */,
+				4A4E0EAA6FCAD80A6DA9252321F1A700 /* Support Files */,
+				65F46A3694242D119FA02290075D9EBC /* VerifyCode */,
 			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/SSVerifyCodeView";
+			name = SSVerifyCodeView;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		65F46A3694242D119FA02290075D9EBC /* VerifyCode */ = {
+			isa = PBXGroup;
+			children = (
+				1E08255E61DEBED85F79B3FE78431D9C /* CodeTextField.h */,
+				623E2BA36F6638CC9A4ED5870EF19898 /* CodeTextField.m */,
+				ABF6E9409A0C2D2D5AAC0E72F96C75F7 /* CodeTextField+DeleteWord.h */,
+				80F31A78CC6BE1CA32B45DFD89CA5638 /* CodeTextField+DeleteWord.m */,
+				0E385A6C80B2CD15D6C2F024F95886CF /* SSVerifyCodeView.h */,
+				32C909FC9A4DC62EA1F0DF1FA5B6F143 /* SSVerifyCodeView.m */,
+			);
+			name = VerifyCode;
+			path = SSVerifyCodeView/Classes/VerifyCode;
 			sourceTree = "<group>";
 		};
 		669DE2660FE2603C8B12F1432CF17C04 /* Pods-SSVerifyCodeView_Tests */ = {
@@ -397,20 +434,6 @@
 			path = "Target Support Files/Pods-SSVerifyCodeView_Example";
 			sourceTree = "<group>";
 		};
-		924459836169595E5543C3DD3B2E850F /* VerifyCode */ = {
-			isa = PBXGroup;
-			children = (
-				D265EDF960453C96B10F5C82AFD5F06C /* SSVerifyCodeView.h */,
-				852BBD6CB7AF5E069BA5E935983134BC /* SSVerifyCodeView.m */,
-				6CDFBD822419C54F0059B15E /* CodeTextField.h */,
-				6CDFBD832419C54F0059B15E /* CodeTextField.m */,
-				6CDFBD862419C5810059B15E /* CodeTextField+DeleteWord.h */,
-				6CDFBD872419C5810059B15E /* CodeTextField+DeleteWord.m */,
-			);
-			name = VerifyCode;
-			path = SSVerifyCodeView/Classes/VerifyCode;
-			sourceTree = "<group>";
-		};
 		98DCC795FA350B97A2CC9BE174C666D8 /* FBSnapshotTestCase */ = {
 			isa = PBXGroup;
 			children = (
@@ -418,19 +441,8 @@
 				C3A7FD38307320ED23C17A5F3129DFCE /* Support Files */,
 				DE8F1085B6CDCC6B4360CCEEE459313E /* SwiftSupport */,
 			);
+			name = FBSnapshotTestCase;
 			path = FBSnapshotTestCase;
-			sourceTree = "<group>";
-		};
-		A2DA0E0E8D60E179EEE36DF53B4F3942 /* SSVerifyCodeView */ = {
-			isa = PBXGroup;
-			children = (
-				A68FE89ED17E60784990607C75FF25F6 /* ReplaceMe.m */,
-				FCC749833748AF7E239057C7646A3AA9 /* Pod */,
-				5E6F9ED31A28663D362F75E4B21F3F10 /* Support Files */,
-				924459836169595E5543C3DD3B2E850F /* VerifyCode */,
-			);
-			name = SSVerifyCodeView;
-			path = ../..;
 			sourceTree = "<group>";
 		};
 		B276E01707172936C5293A31C218E7D4 /* Support Files */ = {
@@ -450,7 +462,7 @@
 		BDD83ABA51D4092F863363C3CA65E499 /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				A2DA0E0E8D60E179EEE36DF53B4F3942 /* SSVerifyCodeView */,
+				5B82BCB5F5F9D9BC68CF61AAD629C593 /* SSVerifyCodeView */,
 			);
 			name = "Development Pods";
 			sourceTree = "<group>";
@@ -507,16 +519,6 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		FCC749833748AF7E239057C7646A3AA9 /* Pod */ = {
-			isa = PBXGroup;
-			children = (
-				36C0F014685CCF4988F1723025881C25 /* LICENSE */,
-				DF9F82CEEF069C2411E43A3AD51C6D69 /* README.md */,
-				CC5441835F290251063042B968860BFC /* SSVerifyCodeView.podspec */,
-			);
-			name = Pod;
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
@@ -532,17 +534,6 @@
 				F1AAAE00BB32B733B238E2B4E8424506 /* UIImage+Compare.h in Headers */,
 				D04AAC8B22E4A4DC4F39891C4E52F251 /* UIImage+Diff.h in Headers */,
 				B74CD6E6EBEA0B642776BCB37850415D /* UIImage+Snapshot.h in Headers */,
-				6CDFBD882419C5810059B15E /* CodeTextField+DeleteWord.h in Headers */,
-				6CDFBD842419C54F0059B15E /* CodeTextField.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		5BB5EC3FCF5165548E7C2FD0D7596F87 /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				D7533C72B2ACC6F093E19999B6DACA4D /* SSVerifyCodeView-umbrella.h in Headers */,
-				7737661587F2BD78F6D761B46D8CD7E4 /* SSVerifyCodeView.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -574,6 +565,17 @@
 			buildActionMask = 2147483647;
 			files = (
 				8ED8DBEB6BC47F8EF64D05C72D16B1D8 /* Pods-SSVerifyCodeView_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FB31DA4FA59B45F1113DEEA621374A7F /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F146015A756E84AF42658EC6B0368D4B /* CodeTextField+DeleteWord.h in Headers */,
+				BACE3C43D147DE35B247692F0D5944A7 /* CodeTextField.h in Headers */,
+				0BA57EBB0B14CAE6363A040425A1AF8A /* SSVerifyCodeView-umbrella.h in Headers */,
+				715E60998C02BAE4EE857774FC098292 /* SSVerifyCodeView.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -646,17 +648,17 @@
 		};
 		DAE7EEA1D422DA260B71306057754A2B /* SSVerifyCodeView */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = DA39783C5CA64DAD89FA768DA0EC12F5 /* Build configuration list for PBXNativeTarget "SSVerifyCodeView" */;
+			buildConfigurationList = 710B8268D5991C0B0A8F15F35A44E123 /* Build configuration list for PBXNativeTarget "SSVerifyCodeView" */;
 			buildPhases = (
-				5BB5EC3FCF5165548E7C2FD0D7596F87 /* Headers */,
-				700CCE53318BECC16B2C02655A005496 /* Sources */,
-				F4C4C5D9466E1B1EE21CAF771820D530 /* Frameworks */,
-				A2435E833111D188F1C46F04B667367B /* Resources */,
+				FB31DA4FA59B45F1113DEEA621374A7F /* Headers */,
+				6BBEADD29E4A2DC9059307A1B836C993 /* Sources */,
+				E9F9AF04623A01E2993B147D8DD3D898 /* Frameworks */,
+				37CF0EB3E72B5CE8170EE1310A9E7A3E /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				CDDCCCD85CC2AE07837DAD556B7180AF /* PBXTargetDependency */,
+				984F72006ACEE79892381C440FD2CBDD /* PBXTargetDependency */,
 			);
 			name = SSVerifyCodeView;
 			productName = SSVerifyCodeView;
@@ -715,6 +717,13 @@
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		37CF0EB3E72B5CE8170EE1310A9E7A3E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		5CC655F1A6C7A45A9693160581076BAE /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -730,13 +739,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		9694F7FD4653C85CE16B2CE4CD20C171 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		A2435E833111D188F1C46F04B667367B /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -779,13 +781,15 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		700CCE53318BECC16B2C02655A005496 /* Sources */ = {
+		6BBEADD29E4A2DC9059307A1B836C993 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B3BFB2D5D318CD1F12A08F41F8EE08FF /* ReplaceMe.m in Sources */,
-				A4D4BC7ECE263621C329DCD452EE8A21 /* SSVerifyCodeView-dummy.m in Sources */,
-				4CBB7A5D91458AA7953AFDEA922C5CC1 /* SSVerifyCodeView.m in Sources */,
+				CAF7039983A53A255BA2EB87C6439438 /* CodeTextField+DeleteWord.m in Sources */,
+				E49976F23249BC022213C5006FBE47CF /* CodeTextField.m in Sources */,
+				688E0C39EB2D065A855B331001DC3EBB /* ReplaceMe.m in Sources */,
+				28A761F351B24D87A3C85926FF6693C5 /* SSVerifyCodeView-dummy.m in Sources */,
+				BB0020576551DCB80D8CE001E1C308E3 /* SSVerifyCodeView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -801,8 +805,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6CDFBD852419C54F0059B15E /* CodeTextField.m in Sources */,
-				6CDFBD892419C5810059B15E /* CodeTextField+DeleteWord.m in Sources */,
 				6DBC8EB7532E931C2FBDA71D1E0B66A4 /* FBSnapshotTestCase-dummy.m in Sources */,
 				8CE3BF0ACE07EA42DD5DAC871BF4B767 /* FBSnapshotTestCase.m in Sources */,
 				E8AC509D18EBF21B1FEA909652A01108 /* FBSnapshotTestCasePlatform.m in Sources */,
@@ -830,6 +832,12 @@
 			target = 55AF53E6C77A10ED4985E04D74A8878E /* Masonry */;
 			targetProxy = E95943B9EC87072A09B14BCEBD1D2DDE /* PBXContainerItemProxy */;
 		};
+		984F72006ACEE79892381C440FD2CBDD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Masonry;
+			target = 55AF53E6C77A10ED4985E04D74A8878E /* Masonry */;
+			targetProxy = DE12ACCA1C67604D34F9C5994CD82A9F /* PBXContainerItemProxy */;
+		};
 		9CF197C90FFA1FBCD2B83CD5A5EB9FD1 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = FBSnapshotTestCase;
@@ -841,12 +849,6 @@
 			name = SSVerifyCodeView;
 			target = DAE7EEA1D422DA260B71306057754A2B /* SSVerifyCodeView */;
 			targetProxy = D0C015D89E29FD3EBB179A7A9A660B87 /* PBXContainerItemProxy */;
-		};
-		CDDCCCD85CC2AE07837DAD556B7180AF /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = Masonry;
-			target = 55AF53E6C77A10ED4985E04D74A8878E /* Masonry */;
-			targetProxy = 9376FF0E503E8C5C3EF06E8D64E49573 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -904,7 +906,8 @@
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
 				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
 			};
@@ -941,37 +944,6 @@
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Release;
-		};
-		6840968944D99B69647805F22F7DBA27 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = D6E750A22C40F2A1F8DD21FE217D335B /* SSVerifyCodeView.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/SSVerifyCodeView/SSVerifyCodeView-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/SSVerifyCodeView/SSVerifyCodeView-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/SSVerifyCodeView/SSVerifyCodeView.modulemap";
-				PRODUCT_MODULE_NAME = SSVerifyCodeView;
-				PRODUCT_NAME = SSVerifyCodeView;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
 		};
 		6981B49048575F8238B3C5B905C918E5 /* Release */ = {
 			isa = XCBuildConfiguration;
@@ -1137,9 +1109,40 @@
 			};
 			name = Debug;
 		};
-		80154F45976B103D053A70992466F59E /* Release */ = {
+		84705298503ADDA0D29EB98E6C0FCC4D /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = D6E750A22C40F2A1F8DD21FE217D335B /* SSVerifyCodeView.xcconfig */;
+			baseConfigurationReference = 9B5C7B9BBE0BD886D436B3F5F75588BF /* SSVerifyCodeView.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SSVerifyCodeView/SSVerifyCodeView-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SSVerifyCodeView/SSVerifyCodeView-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SSVerifyCodeView/SSVerifyCodeView.modulemap";
+				PRODUCT_MODULE_NAME = SSVerifyCodeView;
+				PRODUCT_NAME = SSVerifyCodeView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		8839CB7CBC687239D3D7BC111A7D392A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9B5C7B9BBE0BD886D436B3F5F75588BF /* SSVerifyCodeView.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -1318,6 +1321,15 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
+		710B8268D5991C0B0A8F15F35A44E123 /* Build configuration list for PBXNativeTarget "SSVerifyCodeView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84705298503ADDA0D29EB98E6C0FCC4D /* Debug */,
+				8839CB7CBC687239D3D7BC111A7D392A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		87FD40BD683E3BD044AA4D1B5CA58652 /* Build configuration list for PBXNativeTarget "Masonry" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -1332,15 +1344,6 @@
 			buildConfigurations = (
 				EE252C6C51286892441EE171776C7E81 /* Debug */,
 				6981B49048575F8238B3C5B905C918E5 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		DA39783C5CA64DAD89FA768DA0EC12F5 /* Build configuration list for PBXNativeTarget "SSVerifyCodeView" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				6840968944D99B69647805F22F7DBA27 /* Debug */,
-				80154F45976B103D053A70992466F59E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

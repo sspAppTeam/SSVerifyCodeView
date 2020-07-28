@@ -10,8 +10,9 @@
 #endif
 #endif
 
+#import "CodeTextField+DeleteWord.h"
+#import "CodeTextField.h"
 #import "SSVerifyCodeView.h"
-#import "UITextField+DeleteWord.h"
 
 FOUNDATION_EXPORT double SSVerifyCodeViewVersionNumber;
 FOUNDATION_EXPORT const unsigned char SSVerifyCodeViewVersionString[];

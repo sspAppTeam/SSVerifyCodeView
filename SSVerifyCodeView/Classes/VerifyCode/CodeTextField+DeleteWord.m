@@ -12,16 +12,16 @@ NSString * const TextFieldDidDeleteBackwardNotification = @"TextFieldDidDeleteBa
 @implementation CodeTextField (DeleteWord)
 + (void)load {
     [super load];
-    if ([self isKindOfClass:[CodeTextField class]]) {
-        Method method1 = class_getInstanceMethod([self class], NSSelectorFromString(@"deleteBackward"));
-           Method method2 = class_getInstanceMethod([self class], @selector(textField_deleteBackward));
-           method_exchangeImplementations(method1, method2);
-    }
-   
+//    if ([self isKindOfClass:[CodeTextField class]]) {
+//        Method method1 = class_getInstanceMethod([self class], NSSelectorFromString(@"deleteBackward"));
+//           Method method2 = class_getInstanceMethod([self class], @selector(textField_deleteBackward));
+//           method_exchangeImplementations(method1, method2);
+//    }
+//
 }
 
 - (void)textField_deleteBackward {
-    [[NSNotificationCenter defaultCenter] postNotificationName:TextFieldDidDeleteBackwardNotification object:nil];
+//    [[NSNotificationCenter defaultCenter] postNotificationName:TextFieldDidDeleteBackwardNotification object:nil];
 }
 
 @end

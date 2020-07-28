@@ -10,7 +10,7 @@
 NS_ASSUME_NONNULL_BEGIN
 
 @interface CodeTextField : UITextField
-
+@property (nonatomic,copy) void(^delectBlock)(void);
 @end
 
 NS_ASSUME_NONNULL_END

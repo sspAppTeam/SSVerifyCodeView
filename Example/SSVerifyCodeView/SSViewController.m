@@ -41,6 +41,21 @@
           
 //          [view initCodeView];
 }
+//涉及到
+-(void)viewWillAppear:(BOOL)animated
+{
+// [IQKeyboardManager sharedManager].shouldResignOnTouchOutside = NO;
+//     [IQKeyboardManager sharedManager].enable = NO;
+//    [IQKeyboardManager sharedManager].enableAutoToolbar = NO;
+}
+
+-(void)viewWillDisappear:(BOOL)animated
+{
+    [super viewWillDisappear:YES];
+//    [IQKeyboardManager sharedManager].shouldResignOnTouchOutside = YES;
+//    [IQKeyboardManager sharedManager].enable = YES;
+//    [IQKeyboardManager sharedManager].enableAutoToolbar = YES;
+}
 
 - (void)didReceiveMemoryWarning
 {
